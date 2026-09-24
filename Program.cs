@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
                 policity
                     .AllowAnyOrigin()
                     .AllowAnyHeader()
-                    .AllowAnyMethod()
+                    .AllowAnyMethod();
             }
         )
     }
